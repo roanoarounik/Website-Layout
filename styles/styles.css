@@ -14,6 +14,8 @@ body {
     flex-direction: column;
 }
 
+.m20 { margin: 20px; }
+
 .gap5 { gap: 5px; grid-gap: 5px; }
 .gap10 { gap: 10px; grid-gap: 10px; }
 .gap15 { gap: 15px; grid-gap: 15px; }
@@ -62,4 +64,6 @@ article {
     height: 100%;
 }
 
-.m20 { margin: 20px; }
+.yearElement {
+    margin-left: -20px;
+}

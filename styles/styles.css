@@ -5,6 +5,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.titleText {
+    font-size: large;
+}
+
+.bold {font-weight: bold;}
+
 .gap5 { gap: 5px; grid-gap: 5px; }
 .gap10 { gap: 10px; grid-gap: 10px; }
 .gap15 { gap: 15px; grid-gap: 15px; }

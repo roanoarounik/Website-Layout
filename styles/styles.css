@@ -10,6 +10,10 @@ body {
 .bold { font-weight: bold; }
 .titleText { font-size: large; }
 
+.column {
+    flex-direction: column;
+}
+
 .gap5 { gap: 5px; grid-gap: 5px; }
 .gap10 { gap: 10px; grid-gap: 10px; }
 .gap15 { gap: 15px; grid-gap: 15px; }
@@ -39,8 +43,13 @@ a {
 }
 
 .content {
-    min-height: 300px;
+    min-height: 547px;
     grid-template-columns: 33% 1fr;
+}
+
+.heroBanner {
+    padding: 40px 0;
+    background: steelblue;
 }
 
 aside {
@@ -52,3 +61,5 @@ article {
     background: darkgreen;
     height: 100%;
 }
+
+.m20 { margin: 20px; }
